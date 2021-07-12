@@ -2,7 +2,10 @@
 html, body {
     height: 100%;
     background-color: #2b0029;
-    color: #dadafb;
+    background-image: linear-gradient(black, #2b0029);
+    background-attachment: fixed;
+    color: #a067a7;
+    margin: 0;
 
 }
 
@@ -11,7 +14,7 @@ html, body {
     letter-spacing: 1rem;
 }
 
-#welcome, h1 {
+* {
     font-family: 'Raleway', sans-serif;
     
 }
@@ -33,25 +36,12 @@ html, body {
     border-color: #dadafb;
 }
 
-.btn-primary {
-    color: #dadafb;
-    border-color: #dadafb;
-    padding: .75rem 3rem;
-    letter-spacing: 0.1em;
+a, .nav-link {
+    color: #c47dcc;
 }
 
-.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary.active {
-    background: #dadafb;
-    color: #2b0029;
-    border-color: #dadafb;
-}
-
-a {
-    color: #dadafb;
-}
-
-a:hover {   
-    color: white;
+a:hover, a.nav-link:hover {   
+    color: #e6afec;
 }
 
 .btn-outline-primary:focus {
@@ -62,7 +52,7 @@ a:hover {
     max-width: 1100px;
 }
 
-.col {
+.gallery-img {
     /* background-color: green; */
     /* padding: 2px; */
     margin: 10px;
@@ -71,7 +61,7 @@ a:hover {
 }
 
 #featured {
-    border: 2px solid #dadafb;
+    border: 1px solid #dadafb;
     padding: 5px;
 }
 
@@ -94,4 +84,36 @@ a:hover {
 #more button {
     display: block;
     width: 100%;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    z-index: 0;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+.gallery-container {
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px;
+    /* height: 200px; */
+    /* background-image: url("img/basquiat.jpg"); */
+}
+
+.gallery-imgg {
+    /* border: 2px solid white; */
+    margin: 5px;
+    height: 100px;
+    background-image: url("img/basquiat.jpg");
 }
