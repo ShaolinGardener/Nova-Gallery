@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+html, body {
+    height: 100%;
+    background-color: #2b0029;
+    color: #dadafb;
+
+}
+
+#welcome h1 {
+    font-weight: 400;
+    letter-spacing: 1rem;
+}
+
+#welcome, h1 {
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+#welcome button {
+    margin-top: 3rem;
+}
+
+.btn-outline-primary {
+    color: #dadafb;
+    border-color: #dadafb;
+    padding: .75rem 3rem;
+    letter-spacing: 0.1em;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary.active {
+    background: #dadafb;
+    color: #2b0029;
+    border-color: #dadafb;
+}
+
+.btn-primary {
+    color: #dadafb;
+    border-color: #dadafb;
+    padding: .75rem 3rem;
+    letter-spacing: 0.1em;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus, .btn-outline-primary.active {
+    background: #dadafb;
+    color: #2b0029;
+    border-color: #dadafb;
+}
+
+a {
+    color: #dadafb;
+}
+
+a:hover {   
+    color: white;
+}
+
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 .25rem #dadafb83;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+.col {
+    /* background-color: green; */
+    /* padding: 2px; */
+    margin: 10px;
+    height: 200px;
+    background-image: url("img/basquiat.jpg");
+}
+
+#featured {
+    border: 2px solid #dadafb;
+    padding: 5px;
+}
+
+.section-collections {
+    margin-bottom: 4rem;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+#more {
+    background-image: none;
+    height: 50px;
+    background-color: #d3d3d31e;
+    padding: 0;
+}
+
+#more button {
+    display: block;
+    width: 100%;
+}
