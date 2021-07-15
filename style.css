@@ -123,6 +123,14 @@ canvas {
     background-repeat: no-repeat;
 }
 
+.fuck:hover {
+    /* border: 2px solid white; */
+    /* margin: 5px; */
+    opacity: 50%;
+    /* background-color: green; */
+}
+
+
 .gallery-imgg:after, .gallery-img  {
     content: "";
     display: block;
