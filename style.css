@@ -6,10 +6,15 @@ html, body {
     background-color: #2b0029;
     background-image: linear-gradient(black, #2b0029);
     background-attachment: fixed;
-    color: #a067a7;
+    
     margin: 0;
 
 }
+
+.display-2 {
+    color: #a067a7;
+}
+
 
 #welcome h1 {
     font-weight: 400;
@@ -18,7 +23,7 @@ html, body {
 
 * {
     font-family: 'Raleway', sans-serif;
-    
+    color: #e6afec;
 }
 
 #welcome button {
@@ -46,6 +51,7 @@ a {
     font-size: 1.2rem;
     font-weight: 500;
     color: #e6afec;
+    text-transform: uppercase;
 }
 
 a:hover, a.nav-link:hover {   
@@ -144,3 +150,4 @@ hr {
 .fuck {
     margin: 5px;
 }
+
